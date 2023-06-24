@@ -1,14 +1,14 @@
 import "./App.css";
 import Create from "./components/Create";
 import AppNavbar from "./components/AppNavbar";
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Read from "./components/Read";
 import Update from "./components/Update";
 
 function App() {
   return (
     <div className="App">
-      <HashRouter>
+      <BrowserRouter>
         <AppNavbar />
         <Routes>
           <Route path="/" element={<Read />} />
@@ -16,7 +16,7 @@ function App() {
           <Route path="/create" element={<Create />} />
           <Route path="/edit/:id" element={<Update />} />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </div>
   );
 }
