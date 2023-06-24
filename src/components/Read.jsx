@@ -81,7 +81,7 @@ const Read = () => {
             })
 
             .map((ele) => (
-              <div key={ele.id} className="card w-50 mx-auto my-2">
+              <div key={ele.id} className="card w-80 mx-auto my-2">
                 <div className="card-body">
                   <h5 className="card-title">{ele.name}</h5>
                   <h6 className="card-subtitle mb-2 text-muted">{ele.email}</h6>

@@ -33,7 +33,7 @@ const Update = () => {
 
   return (
     <div>
-      <h2 className="my-2">Edit the data</h2>
+      <h2 className="my-2">Edit contact info</h2>
       <form className="w-50 mx-auto my-5" onSubmit={handleUpdate}>
         <div class="mb-3">
           <label class="form-label">Name</label>
@@ -56,12 +56,12 @@ const Update = () => {
           />
         </div>
         <div class="mb-3">
-          <label class="form-label">Age</label>
+          <label class="form-label">Phone</label>
           <input
             type="text"
-            name="age"
+            name="phone"
             class="form-control"
-            value={updateData && updateData.age}
+            value={updateData && updateData.phone}
             onChange={newData}
           />
         </div>
