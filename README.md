@@ -1,5 +1,6 @@
 # Contacts-Crud-App-React-Redux
  A contact application with real-time crud functionalities using Redux as state management tool and React as front-end.
+ 
  Demo : [contacts-crud-app-react-redux.vercel.app](https://contacts-crud-app-react-redux.vercel.app/)
  
 # Getting Started with Create React App
